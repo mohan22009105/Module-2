@@ -4,8 +4,6 @@
 ###  Aim
 To Write a Python program to print the sum of N even numbers.
 
----
-
 ###  Algorithm
 
 1. Start the program.
@@ -24,7 +22,6 @@ To Write a Python program to print the sum of N even numbers.
 
 6. End the program.
 
----
 
 ### 🧾 Program
 
