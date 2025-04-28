@@ -41,12 +41,9 @@ print("Sum of Even numbers is:",sum)
 
 ```
 ### OUTPUT
-```
 ![Screenshot 2025-04-28 143252](https://github.com/user-attachments/assets/f2296035-2ae4-4da1-a129-b77d90ff2441)
 
-```
 ### RESULT
-```
+
 The program was successfully executed.
-```
 
