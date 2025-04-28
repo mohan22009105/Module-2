@@ -1,32 +1,52 @@
 # Exp.No:2b  
-## FUNCTIONS - PERFECT NUMBER
+## FUNCTIONS - sum of series
 
 ### AIM  
-To write a Python program to check if a number is a Perfect number using the concept of functions.
+To write a Python program to find the sum of series: 1 + 1/2 + 1/3 + ….. + 1/N using function .Get the input for the value of n..
 
----
+
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Read the number `n` from the user using `input()`.  
-3. Convert the input to an integer.  
-4. Define the function `perfectNumber(n)` with the following steps:  
-    - Initialize a variable `factor_sum` to 0.  
-    - Iterate through all numbers from 1 to `n//2` (as divisors of a number can't be greater than half of it).  
-    - If a number `i` divides `n` perfectly (i.e., `n % i == 0`), add `i` to `factor_sum`.  
-    - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect number.  
-5. Terminate the program.
+1. Start the program.
 
----
+2. Define a function sum_series(n) that:
+
+   Initializes sum to 0.
+
+   Uses a loop from 1 to n:
+
+   Add 1/i to the sum at each step.
+
+3. Prompt the user to input a value for n.
+
+4. Call the function and store the result.
+
+5. Print the sum rounded to two decimal places.
+
+6. End the program.
+
+
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
-#Add your Code Here
+#Reg.No: 212222220026
+#Name: Mohan Kumar P
+
+def series(n):
+    sum1=0
+    for i in range(1,n+1):
+        sum1=sum1+(1/i)
+    print("The sum of series is",round(sum1,2))
+
+number=int(input())
+series(number)
+
 
 ```
 ### OUTPUT
 
+![Screenshot 2025-04-28 143836](https://github.com/user-attachments/assets/16156b04-c1b0-40d2-ae89-12c5225a75ad)
+
 ### RESULT
+Thus, the program is verified and executed Successfully
